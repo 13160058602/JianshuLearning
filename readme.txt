@@ -12,3 +12,6 @@
 
 使用create-react-app脚手架工具，推荐npx create-react-app app-name，具体见https://create-react-app.dev/docs/getting-started/，
 解决只有一个全局命令的问题
+
+安装生成项目，node v14.2.0, npx v6.14.5, 会在package.json文件中生成react-scripts3.4.1依赖，应该有版本冲突，要改成react-scripts2.1.8
+（需要花时间去学习一下底层原因）
