@@ -26,6 +26,14 @@
 Component PropType 错误校对机制
 在 React 设计时除了提供 props 预设值设定（Default Prop Values）外，也提供了 Prop 的验证（Validation）机制，让整个 Component 设计更加稳健
 
+Redux 设计和使用三原则：
+1、store 是唯一的
+2、只有store 能够改变自己的内容
+3、Reducer 必须是纯函数
+
+Redux-thunk： dispatch 返回的不再局限于对象，也可以是函数
+Reducx-saga： 把异步代码拆成单独文件，可以代替redux-thunk
+
 
 
 
