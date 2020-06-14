@@ -1,4 +1,4 @@
-//2.创建虚拟dom元素
+//创建虚拟dom元素
 //参数1：创建的元素的类型，字符串，表示元素的名称
 //参数2：是一个对象或null，表示当前这个dom元素的属性
 //参数3：子节点（包括其他虚拟dom获取文本子节点）
@@ -6,7 +6,7 @@
 
 //Babel把语句转换成React.createElement形式
 
-//3.使用ReactDom把虚拟dom渲染到页面上
+//使用ReactDom把虚拟dom渲染到页面上
 //参数1：要渲染的那个虚拟dom元素
 //参数2：指定页面上一个容器
 
@@ -15,3 +15,16 @@
 
 安装生成项目，node v14.2.0, npx v6.14.5, 会在package.json文件中生成react-scripts3.4.1依赖，应该有版本冲突，要改成react-scripts2.1.8
 （需要花时间去学习一下底层原因）
+
+一般 React Component 撰写的主要两种方式：
+1、使用 ES6 的 Class（可以进行比较复杂的操作和组件生命周期的控制，相对于 stateless components 耗费资源）
+//注意组件开头第一个字母都要大写
+2、使用 Funtional Component 写法（单纯地 render UI 的 stateless components，没有内部状态、没有实作物件和 ref，没有生命周期函数。若非 需要控制生命周期的话建议多使用 stateless components 获得比较好的性能）
+//使用 arror function 来设计 Funtional Component 让 UI 设计更单纯（f(D) => UI），减少副作用（side effect）
+
+Component PropType 错误校对机制
+在 React 设计时除了提供 props 预设值设定（Default Prop Values）外，也提供了 Prop 的验证（Validation）机制，让整个 Component 设计更加稳健
+
+
+
+
