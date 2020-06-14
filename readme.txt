@@ -19,7 +19,8 @@
 一般 React Component 撰写的主要两种方式：
 1、使用 ES6 的 Class（可以进行比较复杂的操作和组件生命周期的控制，相对于 stateless components 耗费资源）
 //注意组件开头第一个字母都要大写
-2、使用 Funtional Component 写法（单纯地 render UI 的 stateless components，没有内部状态、没有实作物件和 ref，没有生命周期函数。若非 需要控制生命周期的话建议多使用 stateless components 获得比较好的性能）
+2、使用 Funtional Component 写法（单纯地 render UI 的 stateless components，没有内部状态、没有实作物件和 ref，没有生命周期函数。
+若非需要控制生命周期的话，建议多使用 stateless components 获得比较好的性能）
 //使用 arror function 来设计 Funtional Component 让 UI 设计更单纯（f(D) => UI），减少副作用（side effect）
 
 Component PropType 错误校对机制
