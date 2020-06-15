@@ -31,9 +31,11 @@ Redux 设计和使用三原则：
 2、只有store 能够改变自己的内容
 3、Reducer 必须是纯函数
 
+//iconfont.cn 阿里的图标网站，创建图标仓库
 Redux-thunk： dispatch 返回的不再局限于对象，也可以是函数
 Reducx-saga： 把异步代码拆成单独文件，可以代替redux-thunk
 styled-components: 管理项目样式，代替引入样式文件,解决样式冲突问题
 //styled-components 4.x版本将原来的injectGlobal方法用createGlobalStyle替换了
+react-transition-group: 动画
 
 
