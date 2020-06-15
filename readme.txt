@@ -37,5 +37,8 @@ Reducx-saga： 把异步代码拆成单独文件，可以代替redux-thunk
 styled-components: 管理项目样式，代替引入样式文件,解决样式冲突问题
 //styled-components 4.x版本将原来的injectGlobal方法用createGlobalStyle替换了
 react-transition-group: 动画
+Redux: 数据框架
+React-redux: 在react中使用redux
+redux-devtools-extension: 浏览器调试工具，查看数据
 
 
